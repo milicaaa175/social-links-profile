@@ -92,3 +92,9 @@ footer {
 footer>a {
     color: hsl(75, 94%, 57%);
 }
+
+@media only screen and (max-width: 375px) {
+    section {
+        max-width: 20.438rem;
+    }
+}
